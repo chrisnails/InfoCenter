@@ -35,7 +35,7 @@
         <GroupBox Header="Latest News" HorizontalAlignment="Left" Margin="50,851,0,0" VerticalAlignment="Top" Height="87" Width="1472">
             <Rectangle Fill="Red" HorizontalAlignment="Left" Height="47" Stroke="Black" VerticalAlignment="Top" Width="66" Margin="10,10,0,0"/>
         </GroupBox>
-        <Label Content="Heute keine INTER-LS mehr, danke!" HorizontalAlignment="Left" Margin="146,873,0,0" VerticalAlignment="Top" RenderTransformOrigin="10.737,10.923" Height="61" Width="1344" FontSize="36"/>
+        <Label Content="Heute keine INTER-LS mehr, danke!" HorizontalAlignment="Left" Margin="146,869,0,0" VerticalAlignment="Top" RenderTransformOrigin="10.737,10.923" Height="61" Width="1344" FontSize="36"/>
         <GroupBox Header="Quick Access" HorizontalAlignment="Left" Margin="744,63,0,0" VerticalAlignment="Top" Height="143" Width="746">
             <Button Content="SESS Starten!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Height="94" FontSize="60" Margin="36,10,0,0"/>
         </GroupBox>
