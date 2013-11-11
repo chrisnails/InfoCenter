@@ -1,0 +1,46 @@
+﻿<Window x:Class="LagerhausInfoCenter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lagerhaus Info Center" Height="996" Width="1590">
+    <Grid Height="971" VerticalAlignment="Top">
+        <Label Content="LagerhausInfoCenter" HorizontalAlignment="Left" Margin="192,63,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Image Margin="34,45,1432,810" Source="559425961133575325-559425829331766306-852364740263718274-1-25-NA.jpeg" Stretch="Fill" Width="120" Height="120"/>
+        <TabControl HorizontalAlignment="Left" Height="608" Margin="50,211,0,0" VerticalAlignment="Top" Width="1472">
+            <TabItem Header="TS Peilung" FontSize="24">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Preislisten" FontSize="24">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,26">
+                    <Button Content="Diesel" HorizontalAlignment="Left" Margin="35,37,0,0" VerticalAlignment="Top" Width="129" Height="104"/>
+                    <Button Content="Garant" HorizontalAlignment="Left" Margin="35,215,0,0" VerticalAlignment="Top" Width="129" Height="104"/>
+                    <ListView HorizontalAlignment="Left" Margin="239,41,0,19" Width="1186">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                        <ListViewItem Content="Aktuelle Preisliste" Margin="0" Height="72" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}"/>
+                        <ListViewItem Content="Liste 11.11.2013" Margin="0" Height="72"/>
+                        <ListViewItem Content="Liste 10.11.2013" Margin="0" Height="72" Background="{DynamicResource {x:Static SystemColors.InfoBrushKey}}"/>
+                    </ListView>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Auftragsanzeige" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="197" FontSize="24" Margin="-2,-2,-140,0">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="TabItem" HorizontalAlignment="Left" Height="36" VerticalAlignment="Top" Width="55">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+        <GroupBox Header="Latest News" HorizontalAlignment="Left" Margin="50,851,0,0" VerticalAlignment="Top" Height="87" Width="1472">
+            <Rectangle Fill="Red" HorizontalAlignment="Left" Height="47" Stroke="Black" VerticalAlignment="Top" Width="66" Margin="10,10,0,0"/>
+        </GroupBox>
+        <Label Content="Heute keine INTER-LS mehr, danke!" HorizontalAlignment="Left" Margin="146,873,0,0" VerticalAlignment="Top" RenderTransformOrigin="10.737,10.923" Height="61" Width="1344" FontSize="36"/>
+        <GroupBox Header="Quick Access" HorizontalAlignment="Left" Margin="744,63,0,0" VerticalAlignment="Top" Height="143" Width="746">
+            <Button Content="SESS Starten!" HorizontalAlignment="Left" VerticalAlignment="Top" Width="140" Height="94" FontSize="60" Margin="36,10,0,0"/>
+        </GroupBox>
+        <Button Content="DK Preis" HorizontalAlignment="Left" Margin="956,93,0,0" VerticalAlignment="Top" Width="113" Height="90" FontSize="22"/>
+        <Button Content="Urlaubsschein" HorizontalAlignment="Left" Margin="1108,93,0,0" VerticalAlignment="Top" Width="165" Height="90" FontSize="22"/>
+
+    </Grid>
+</Window>
